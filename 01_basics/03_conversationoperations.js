@@ -10,16 +10,16 @@ console.log(typeof valueInNumber)
 //"33abc" => NaN not a number
 //true => 1 false => 0
 
-//let isLoggedIn = 1
-//let booleanisLoggedIn = Boolean(isLoggedIn)
-//console.log(booleanisLoggedIn)
+let isLoggedIn = 1
+let booleanisLoggedIn = Boolean(isLoggedIn)
+console.log(booleanisLoggedIn)
 
 //use empty string in boolean gives false
 
-//let someNumber = 25
-//let strNub = String(someNumber)
-//console.log(strNub)
-//console.log(typeof strNub)
+let someNumber = 25
+let strNub = String(someNumber)
+console.log(strNub)
+console.log(typeof strNub)
 
 //******** operatiobs**************
 

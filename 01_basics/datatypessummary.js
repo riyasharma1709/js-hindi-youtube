@@ -34,5 +34,36 @@ const myFunction = function()
 myFunction()
 
 
+//two types of memory 
+// stack and heap
+// stack-primitive and heap- non primitive
+//stack gives copy value and heap give references
+
+// example of stack 
+
+let chan  =  "Riya sharma"
+let example = "Akshay kumar"
+console.log(chan)
+
+
+console.log(example)//akshay kumar
+example = "Rohit Sharma"
+console.log(example)//Rohit sharma
+
+//example of heap
+
+let userOne = {
+    email:"user@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
 
 

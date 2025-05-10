@@ -26,3 +26,4 @@ console.log(NewDate.getMonth()+1);
 NewDate.toLocaleString('default',{
     weekday:"long",
 })
+

@@ -1,28 +1,28 @@
 //array
 const myArray = [0,"Riya",2,3,4,5]
-// console.log(myArray)
-// console.log(myArray[1]);
+console.log(myArray)
+console.log(myArray[1]);
 
-// const myHeors = ["Akshaykumar","sethupatiVijay"]
+const myHeors = ["Akshaykumar","sethupatiVijay"]
 
-// //array methods
-// myArray.push(6)//value add karva mate
-// console.log(myArray)
-// myArray.pop()//last value remove karva mate
+//array methods
+myArray.push(6)//value add karva mate
+console.log(myArray)
+myArray.pop()//last value remove karva mate
 
-// console.log(myArray)
-// myArray.unshift(9)
-// console.log(myArray)
-// myArray.shift()
-// console.log(myArray)
-// console.log(myArray.includes(9));
-// console.log(myArray.indexOf(3));
+console.log(myArray)
+myArray.unshift(9)
+console.log(myArray)
+myArray.shift()
+console.log(myArray)
+console.log(myArray.includes(9));
+console.log(myArray.indexOf(3));
 
-// const newArr = myArray.join()
+const newArr = myArray.join()//convert in string
 
-// console.log(myArray)
-// console.log(newArr)
-// console.log(typeof newArr);
+console.log(myArray)
+console.log(newArr)
+console.log(typeof newArr);
 
 
 //slice,splice

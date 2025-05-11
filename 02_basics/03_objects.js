@@ -17,8 +17,11 @@ const jsUser = {
     "full name" : "Riya Sharma",
     email:"riya@gmail.com",
     isLoggedIn:false,
-    lastLoggedIn:["Monday","friday"]
+    lastLoggedIn:["Monday","friday"],
+    subjects: ["Math", "Science", "English"] //array
 }
+console.log(jsUser.subjects);       // ["Math", "Science", "English"]
+console.log(jsUser.subjects[0]); 
 
 console.log(jsUser.email)
 console.log(jsUser["email"])

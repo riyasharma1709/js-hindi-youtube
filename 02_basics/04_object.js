@@ -1,5 +1,5 @@
 //singleton constructor object
-const tinderUser = new Object() //declare as counstructor
+const tinderUser = new Object()             //declare as counstructor
 tinderUser.id = "123Riya"
 tinderUser.name = "Riya"
 tinderUser.isLoggedin = true
@@ -38,3 +38,25 @@ console.log(Object.keys(instaUser))
 console.log(Object.values(instaUser))
 
 console.log(instaUser.hasOwnProperty('id'))
+
+//destructure in object
+
+const course ={
+    courename:"js in hindi",
+    price:"999",
+    coureInstructor:"hitesh"
+}
+//console.log(course.coureInstructor)
+
+const {coureInstructor: instructor} = course
+//console.log(coureInstructor)
+
+
+console.log(instructor) //give short name for easssy access 
+//api and json ison is used for backed database in past used xml but xml is very complex so json introduce 
+//json format example in json keys represented in string type all api handle with json
+{
+   //"name":"riyasharma",
+   //"email":"ri@gmail.com"
+
+}

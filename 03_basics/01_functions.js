@@ -37,3 +37,28 @@ function msg(name){
     return `${name} sweet` 
 }
 console.log(msg())
+
+function calculateCarPrice(...num1) { //... rest operator used for return multiple value in single parameter
+    return num1
+}
+console.log(calculateCarPrice(200,300,400))
+
+ 
+//pass object in function
+
+const user = {
+    name : "Riya",
+    price :"99"
+}
+
+function handlecart(anyobject){
+    console.log (`name is ${anyobject.name} and price is ${anyobject.price}`)
+}
+handlecart(user)
+
+const user1 = [200,300,400,500]
+
+function anyarray(array) {
+    console.log(array)
+}
+anyarray(user1[1])

@@ -154,6 +154,46 @@ function takeArgumenet(a,b,operator){
 }
 takeArgumenet(4,2,"/")
             
+//for loop Write a for loop that prints only the even numbers from 1 to 20.
+
+for(i = 0; i <= 20; i++){
+    if(i % 2 == 0)
+        {
+            console.log(`even number${i}`);
+    }
+}
+
+
+let fruits = ["mango","watermillon","banana"]
+
+for(i = 0; i < fruits.length ; i++){
+    console.log(fruits[i]);
+}
         
-        
-        
+//Write a for loop that calculates the sum of numbers from 1 to n.
+
+let n = 5;
+let sum = 0;
+
+for(i = 0; i <= 5; i++){
+   sum = sum + i;
+   
+}
+console.log("sum is:",sum)
+   
+//Write a for loop that prints numbers from 10 to 1 in reverse order.
+
+for(i = 10;i >= 1; i--){
+    console.log(i)
+
+}
+//  
+const str = "hello world"
+let count = 0;
+
+for(i = 0; i < str.length ; i++){
+    let char = str[i].toLowerCase();
+    if(char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u')
+        count ++;
+}
+console.log("number of vowel is:",count)

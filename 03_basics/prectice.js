@@ -7,7 +7,7 @@ function reverseArray(arr) {
 console.log(reverseArray([1, 2, 3, 4]));
 
 //2.convert Object to Array
-
+ 
 const person = {name:"sem",surname:"shri"}
 
 function arraytoobject(obj){
@@ -106,21 +106,24 @@ evenOdd(4)
 function checkDay(num){
     switch (num){
         case 1:
-            console.log("monday");
+            console.log("sunday");
             break;
         case 2:
-            console.log("sunday");
+            console.log("monday");
             break;
         case 3:
             console.log("tuesday");
             break;
         case 4:
-            console.log("thursday");
+            console.log("wensday");
             break;
         case 5:
-            console.log("friday");
+            console.log("thursday");
             break;
         case 6:
+            console.log("friday");
+            break;
+        case 7:
             console.log("satday");
             break;
         default:
@@ -197,3 +200,21 @@ for(i = 0; i < str.length ; i++){
         count ++;
 }
 console.log("number of vowel is:",count)
+
+const hello ={
+    name : "riya",
+    age:21,
+}
+
+function gret(anyOb){
+    console.log(`name is ${anyOb.name} and age is ${anyOb.age}`
+    )
+}
+gret(hello)
+
+const ca = ["riya","sem","12"]
+
+function araycount(anyar){
+    console.log(anyar);
+}
+console.log(ca[1])

@@ -23,7 +23,16 @@ map.set('USA',"United state")
 map.set('fr',"france")
 map.set('IN',"India") //can't take repeted value its take uniqu
 
-
-
 console.log(map)
+for( const [key,value] of map){
+    console.log(key,':-',value);
+}
+
+const myObj = {
+    'game1':'NFS',
+    'game2':'spiderman'
+}
+for(const [key,value] of myObj){
+    console.log(key,':-',value) // give eeror object can't iterable
+}
 

@@ -1,7 +1,7 @@
 //for each we usrd in arry mostly
 const coding =["js","python","java","rubby"]
 
-// coding.forEach(function (val){   //in callback function ca't give function name
+// coding.forEach(function (val){   //in callback function ca 't give function name
 //     console.log(val)
 // })
 

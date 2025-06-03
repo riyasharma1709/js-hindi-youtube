@@ -218,3 +218,73 @@ function araycount(anyar){
     console.log(anyar);
 }
 console.log(ca[1])
+
+const findObj = [
+   { 
+        name:'riya',
+        age:21,
+        year:2004
+
+    },
+   { 
+        name:'sem',
+        age:22,
+        year:2005
+
+    },
+     { 
+        name:'jems',
+        age:24,
+        year:2006
+
+    }
+    
+]
+// console.log("new")
+// console.log(findObj[0].age)
+// console.log(findObj)
+
+// findObj.forEach( (item) => {
+//     console.log(item.age);
+// })
+
+// findObj.forEach(function (item) {
+//     console.log(item.age);
+// })
+
+const newOb=findObj.filter( (item)=>item.name === "riya")
+console.log(newOb)
+
+const newArray = [1,2,3]
+
+const modiArr = newArray.reduce((acc,curval) =>{
+    console.log(`acc value is ${acc} and curvalue is ${curval}`)
+    return acc +curval
+
+},0)
+console.log(modiArr)
+
+const cart = [
+    {
+        product:"trouser",
+        price:300
+
+    },
+    {
+        product:"jens",
+        price:400
+
+    },
+    {
+        product:"tshirt",
+        price:400
+
+    }
+
+]
+const myntra = cart.reduce((acc,item) =>{
+    return acc+item.price
+
+
+},0)
+console.log(myntra)

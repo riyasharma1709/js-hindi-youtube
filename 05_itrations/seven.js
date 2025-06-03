@@ -9,7 +9,7 @@ console.log(newNums)
 // })
 // console.log(newk)
 
-const numbsers = myNumbers.
+const numbsers = myNumbers. //called chaining if we use three differnt method 
 map((num) => num * 10)
 .map((num)=>  num + 1)
 .filter( (num) => num >= 40)

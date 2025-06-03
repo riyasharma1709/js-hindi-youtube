@@ -288,3 +288,23 @@ const myntra = cart.reduce((acc,item) =>{
 
 },0)
 console.log(myntra)
+
+
+twoArr =[1,2,3,4,5,6]
+oneArr = []
+
+twoArr.forEach((item)=> {
+    if(item >3)
+        oneArr.push(item)
+    
+})
+console.log(oneArr)
+
+// const threeArr = twoArr.map((i) =>{
+//     return i < 3
+
+
+// })
+// console.log(threeArr)
+const newNums = twoArr.map( (num) => num + 3)
+console.log(newNums)

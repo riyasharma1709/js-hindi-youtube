@@ -308,3 +308,10 @@ console.log(oneArr)
 // console.log(threeArr)
 const newNums = twoArr.map( (num) => num + 3)
 console.log(newNums)
+
+
+const jemsArr = [1,2,3,4,5]
+for(i=0;i<jemsArr.length;i++){
+    console.log("jems")
+    console.log(jemsArr[i])
+}

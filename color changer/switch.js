@@ -4,7 +4,7 @@ console.log(btn)
 
 const mainb = document.querySelector("body")
 
-buttons.forEach(function(button){
+btn.forEach(function(button){
     console.log(button)
     button.addEventListener('click',function(e){
         console.log(e)
@@ -12,16 +12,16 @@ buttons.forEach(function(button){
 
  switch (e.target.id) {
             case 'grey':
-                body.style.backgroundColor = 'grey';
+                mainb.style.backgroundColor = 'grey';
                 break;
             case 'white':
-                body.style.backgroundColor = 'white';
+                mainb.style.backgroundColor = 'white';
                 break;
             case 'blue':
-                body.style.backgroundColor = 'blue';
+                mainb.style.backgroundColor = 'blue';
                 break;
             case 'yellow':
-                body.style.backgroundColor = 'yellow';
+                mainb.style.backgroundColor = 'yellow';
                 break;
             default:
                 console.log("No color matched");

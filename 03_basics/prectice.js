@@ -315,3 +315,17 @@ for(i=0;i<jemsArr.length;i++){
     console.log("jems")
     console.log(jemsArr[i])
 }
+
+
+const hey = "hello"
+let c = 0;
+
+for(i = 0; i < hey.length;i++){
+    let con = hey[i].toLowerCase();
+    if(con == "a" || con == "e" || con == "i" || con == "o"||  con =="u")
+     c++;
+
+
+    
+}
+   console.log("number is",c)
